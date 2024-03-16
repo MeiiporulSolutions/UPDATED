@@ -239,19 +239,20 @@ const Dashboard = () => {
             
   
             
-             <Grid item xs={6}>
-             <Grid item xs={ 4.5} sm={1} sx={{marginTop:"200px",marginLeft:"-120px",height:"400px",width:"50px"}}>
-
-                <Dash8sample></Dash8sample>
-                
-</Grid> 
-</Grid><Grid item xs={6}>
-            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-1400px",marginLeft:"-60px",height:"400px",width:"50px"}}>
+             
+<Grid item xs={6}>
+            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-800px",marginLeft:"-70px",height:"400px",width:"50px"}}>
            <PatientFlow></PatientFlow>
             </Grid>
   
             </Grid>
-  
+            <Grid item xs={6}>
+             <Grid item xs={ 4.5} sm={1} sx={{marginTop:"190px",marginLeft:"600px",
+             marginRight:"800px",width:"30px",height:"30px"}}>
+
+                <Dash8sample></Dash8sample>
+                </Grid>    
+</Grid> 
         </div>
       </div>
     );
