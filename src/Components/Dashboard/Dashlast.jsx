@@ -16,7 +16,7 @@ const Dashboard = () => {
     return (
         
       <div style={{ display: "flex", backgroundColor: "#f5f5f5" }}>
-        <div style={{ width: "100%", padding: "10px", marginLeft: "50px" }}>
+        <div style={{ width: "80%", padding: "10px", marginLeft: "50px" }}>
           <div
             style={{
               background: "#ffff",
@@ -223,7 +223,7 @@ const Dashboard = () => {
             {/* </Grid>  */}
             <Grid container spacing={3}>
 
-            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"400px",marginLeft:"-110px",height:"400px",width:"50px"
+            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"500px",marginLeft:"-10px",height:"400px",width:"50px"
                       }}>
    
    
@@ -231,27 +231,33 @@ const Dashboard = () => {
                </Grid>
             </Grid>
             <Grid container spacing={3}>
-            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-300px",marginLeft:"-110px",height:"400px",width:"50px"
+              <div>
+            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-250px",marginLeft:"79px",height:"410px",width:"290px"
                       }}>   
+                    
 <DashHeat></DashHeat>
 </Grid>
+</div>
    </Grid>
             
   
             
-             
+            
 <Grid item xs={6}>
-            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-800px",marginLeft:"-70px",height:"400px",width:"50px"}}>
+  <div>
+            <Grid item xs={ 4.5} sm={1} sx={{marginTop:"-880px",marginLeft:"120px",height:"300px",width:"120px"}}>
            <PatientFlow></PatientFlow>
             </Grid>
-  
+            </div>
             </Grid>
             <Grid item xs={6}>
-             <Grid item xs={ 4.5} sm={1} sx={{marginTop:"190px",marginLeft:"600px",
-             marginRight:"800px",width:"30px",height:"30px"}}>
+              <div>
+             <Grid item xs={ 4.5} sm={1} sx={{marginTop:"290px",marginLeft:"780px",
+             marginRight:"1000px",width:"70px",height:"100px"}}>
 
                 <Dash8sample></Dash8sample>
                 </Grid>    
+                </div>
 </Grid> 
         </div>
       </div>
